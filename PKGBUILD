@@ -5,7 +5,7 @@
 pkgname=malachite
 pkgver=2.0.0
 pkgrel=1
-pkgdesc="Tool for packaging and maintaining pacman repositories"
+pkgdesc='Tool for packaging and maintaining pacman repositories'
 arch=('x86_64' 'aarch64')
 url="https://github.com/crystal-linux/$pkgname"
 license=('GPL3')
