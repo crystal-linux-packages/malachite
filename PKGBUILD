@@ -4,8 +4,8 @@
 
 pkgname=malachite
 _pkgname=mlc
-pkgver=2.0.0
-pkgrel=3
+pkgver=2.1.0
+pkgrel=1
 pkgdesc='Tool for packaging and maintaining pacman repositories'
 arch=('x86_64' 'aarch64')
 url="https://github.com/crystal-linux/${pkgname}"
@@ -13,7 +13,7 @@ license=('GPL3')
 depends=('git' 'pacman-contrib' 'gnupg')
 makedepends=('cargo')
 source=("${pkgname}-${pkgver}::${url}/archive/v${pkgver}.tar.gz")
-sha256sums=('81fc6a2663a5419e112d092900a55fba9e1b4f9c9ba21fa80e8921411515d63d')
+sha256sums=('187992fe21bbb6373d4af8ec39c23e75c63725b00ff762b162e70bd4d49ae6c1')
 
 prepare() {
     cd "${srcdir}/${pkgname}-${pkgver}"
