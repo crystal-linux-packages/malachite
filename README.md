@@ -1,1 +1,1 @@
-PKGBUILD for crystal-linux/malachite
+# PKGBUILD for crystal-linux/malachite
